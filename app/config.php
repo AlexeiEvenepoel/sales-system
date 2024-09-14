@@ -22,7 +22,7 @@ try{
 
 $URL = "http://localhost/sales-system";
 
-date_default_timezone_set("America/Caracas");
+date_default_timezone_set("America/Lima");
 $fechaHora = date('Y-m-d H:i:s');
 
 

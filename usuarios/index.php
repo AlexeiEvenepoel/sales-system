@@ -7,6 +7,24 @@ include ('../layout/parte1.php');
 
 include ('../app/controllers/usuarios/listado_de_usuarios.php');
 
+if (isset($_SESSION['mensaje'])) {
+    $respuesta = $_SESSION['mensaje'];
+    ?>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: '<?php echo $respuesta; ?>',
+            showConfirmButton: false,
+            timer: 2500
+        });
+    </script>
+    <?php
+    unset($_SESSION['mensaje']);
+}
+?>
+
 
 ?>
 

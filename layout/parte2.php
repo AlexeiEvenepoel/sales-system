@@ -2,10 +2,10 @@
 <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-        Anything you want
+        Triple XXX
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2023 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2024 <a href=""></a>.</strong> Todos los derechos Reservados.
 </footer>
 </div>
 <!-- ./wrapper -->

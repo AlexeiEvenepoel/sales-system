@@ -40,7 +40,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="#" class="nav-link">SISTEMA DE VENTAS </a>
+                <a href="#" class="nav-link">SISTEMA DE VENTAS "TRIPLE XXX" </a>
             </li>
         </ul>
 
@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>" class="brand-link">
             <img src="<?php echo $URL;?>/public/images/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">SIS VENTAS</span>
+            <span class="brand-text font-weight-light">SISTEMA DE VENTAS</span>
         </a>
 
         <!-- Sidebar -->
@@ -68,7 +68,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    <img src="<?php echo $URL;?>/public/templeates/AdminLTE-3.2.0/dist/img/IMG_0054.jpg" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
                     <a href="#" class="d-block"><?php echo $nombres_sesion;?></a>

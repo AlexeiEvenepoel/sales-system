@@ -17,7 +17,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Bienvenido al SISTEMA de VENTASa - <?php echo $rol_sesion; ?> </h1>
+                    <h1 class="m-0">Bienvenido al SISTEMA de VENTAS - <?php echo $rol_sesion; ?> </h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->

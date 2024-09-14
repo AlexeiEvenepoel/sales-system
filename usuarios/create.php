@@ -1,11 +1,25 @@
 <?php
 include ('../app/config.php');
 include ('../layout/sesion.php');
-
 include ('../layout/parte1.php');
-
 include ('../app/controllers/roles/listado_de_roles.php');
 
+if (isset($_SESSION['mensaje'])) {
+    $respuesta = $_SESSION['mensaje'];
+    ?>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: '<?php echo $respuesta; ?>',
+            showConfirmButton: false,
+            timer: 2500
+        });
+    </script>
+    <?php
+    unset($_SESSION['mensaje']);
+}
 ?>
 
 <!-- Content Wrapper. Contains page content -->
