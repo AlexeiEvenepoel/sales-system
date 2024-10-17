@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../public/templeates/AdminLTE-3.2.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../public/templeates/AdminLTE-3.2.0/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="body.css">
 
     <!-- Libreria Sweetallert2-->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -231,7 +232,7 @@
         </style>
 
         <center>
-        <img src="../assets/logo-triplexxx.png" alt="" width="200px">
+        <img src="../assets/logo-triplexxx.png" alt="" width="100px" style="display: none;">
         </center>
         <br>
         <div class="container">
@@ -320,7 +321,7 @@
             </style>
             <div class="card-header text-center">
                 <h2 style="color: white; font-size: 1.5em">Sales System</h2>
-                <h1 style="color: white; font-weight: bold; font-size: 2.5em;">TRIPLE XXX</h1>
+                <h1 style="color: white; font-weight: bold; font-size: 2.5em;">Alexei Evn.</h1>
 
             </div>
             <div class="card-body">
@@ -369,6 +370,7 @@
                     </div>
                     <hr>
                     <div class="row">
+
                         <!-- /.col -->
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary btn-block" style="color:white; background: #1b2631; border-radius: 16px; font-weight: bold;">

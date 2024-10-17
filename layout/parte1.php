@@ -40,7 +40,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="#" class="nav-link">SISTEMA DE VENTAS "TRIPLE XXX" </a>
+                <a href="#" class="nav-link">SALES SYSTEM "Alexei Evn." </a>
             </li>
         </ul>
 
@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>" class="brand-link">
             <img src="<?php echo $URL;?>/public/images/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">SISTEMA DE VENTAS</span>
+            <span class="brand-text font-weight-light">Sales System</span>
         </a>
 
         <!-- Sidebar -->
@@ -81,9 +81,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
-
-
-
 
                     <li class="nav-item ">
                         <a href="#" class="nav-link active">
